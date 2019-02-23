@@ -95,7 +95,7 @@ g3 <- ggplot(heart_grid) +
 
 - Generate a grid polygon from points with `wafflerize`
 
-```{r}
+```{r, out.width = "100%", fig.width=14, fig.height=5}
 heart_polygon <- wafflerize(heart_grid, fact = 1000)
 
 g4 <- ggplot(heart_polygon) +

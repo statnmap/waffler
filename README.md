@@ -110,7 +110,7 @@ g4 <- ggplot(heart_polygon) +
 cowplot::plot_grid(g1, g2, g3, g4, ncol = 4)
 ```
 
-<img src="man/figures/README-unnamed-chunk-3-1.png" width="50%" style="display: block; margin: auto;" />
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" style="display: block; margin: auto;" />
 
 -   Quick print with {leafgl} (*prev. {leaflet.glify}*): `addGlPolygons`
 
