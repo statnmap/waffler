@@ -1,0 +1,6 @@
+^img$
+^README\.Rmd$
+^LICENSE\.md$
+^devstuff_history\.R$
+^waffler\.Rproj$
+^\.Rproj\.user$

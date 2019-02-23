@@ -1,0 +1,33 @@
+Package: waffler
+Title: Build a spatial waffle from set of point and glify it
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Sebastien",
+             family = "Rochette",
+             role = c("aut", "cre"),
+             email = "sebastien@thinkr.fr",
+             comment = c(ORCID = "0000-0002-1565-9313")),
+      person(given = "Colin",
+             family = "Fay",
+             role = "aut",
+             email = "colin@thinkr.fr",
+             comment = c(ORCID = "0000-0001-7343-1846")),
+      person(given = "Vincent",
+             family = "Guyader",
+             role = "aut",
+             email = "vincent@thinkr.fr",
+             comment = c(ORCID = "0000-0003-0671-9270")),
+      person(given = "ThinkR",
+             role = "cph"))
+Description: Generate the world largest waffles as interactive
+    spatial grid.
+License: MIT + file LICENSE
+Imports: 
+    dplyr,
+    magrittr,
+    purrr,
+    sf
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
