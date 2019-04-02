@@ -18,6 +18,10 @@ wafflerize <- function(x, fact = 100,
   # browser()
   # res_x <- res_y <- 1
 
+  if (!all(c("x", "y") %in% names(x))) {
+    stop("data must contain `x` and `y` columns")
+  }
+
   if (missing(res_x) | missing(res_y)) {
     res <- get_resolutions(x)
     res_x <- res$res_x
